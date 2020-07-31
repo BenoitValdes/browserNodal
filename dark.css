@@ -1,0 +1,49 @@
+/* Custom CSS to control the color of the QPaint for the grid generation
+
+    background-color: Background color of the Nodal grid
+    bigGrid-color: Lines' color of the bigest grid
+    smallGrid-color: Lines' color of the smalest grid
+
+*/
+/* QMenu{
+    background-color: #202020;
+    color: #7a7a7a;
+    border: solid 1px #0d0d0d;
+} */
+
+
+#backgroundGrid{
+    background-color: #1a1a1a;
+    bigGrid-color: #292929;
+    smallGrid-color: #202020;
+}
+
+#tabMenu{
+    rowHeight: 15px;
+}
+
+#node{
+    background-color: #424242;
+    opacity: 0.8;
+    color: #ffffff;
+    border-color: #00ffff;
+    border-width: 1;
+}
+
+#header{
+    height: 15px;
+    background-color: #424242;
+}
+
+#header[color = "brown"]{
+    background-color: #8b804a;
+}
+#header[color = "green"]{
+    background-color: #4f7526;
+}
+#header[color = "purple"]{
+    background-color: #532734;
+}
+#header[color = "indigo"]{
+    background-color: #297286;
+}

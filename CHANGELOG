@@ -1,0 +1,32 @@
+# 0.1.3
+- Create a MainWindow widget that will contain the Graph and the file management widgets
+- Add a Tray button in the hud to show/hide the file management widgets
+- Replace Control modifiers by Alt modifier to move a node with parenting disabled
+
+# 0.1.2
+- Add autoload last project in settings and setup the code to let it work
+- Fill the load recent menu and make it works
+- When CTRL modifier is pressed, affect children when we move is disabled
+
+# 0.1.1
+- Clear the scene when we load a file
+
+# 0.1.0
+- Create the nodal system
+- Allow to show children of a node by double clicking on it
+- Allow to move in the scene with the Midle Mouse Button (MMB)
+- Allow to Zoom/Unzoom with Wheel Mouse Button (WMB)
+- Allow to use A or F key to show the whole scene or zoom on the selection
+- Save and Load features
+- Add a contextual menu accessible with Right Mouse Button (RMB)
+    - Allow to open the selected node in OS explorer
+    - Add a seed (root node)
+    - Save and Save as the current view
+    - Open a saved view
+    - Close the application
+- Add a HUD
+    - Time and Date widget
+    - App logo
+- Add Settings file
+    - Save the position and the size of the window when we close the app
+- Allow the node to revert the direction depending if they are on the left to the seed
